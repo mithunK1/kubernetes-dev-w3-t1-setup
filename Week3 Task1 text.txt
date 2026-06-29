@@ -1,0 +1,7 @@
+minikube start
+
+kubectl get pods -n backend
+
+kubectl get svc -n backend
+
+minikube service backend-service -n backend
